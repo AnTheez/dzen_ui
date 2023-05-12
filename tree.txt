@@ -1,0 +1,90 @@
+common/
+	enums/		
+		message_enum.dart
+	providers/
+		message_reply_provider.dart
+	repositories/
+		common_firebase_storage_repository.dart
+	utils/
+		colors.dart
+		utils.dart	
+	widgets/
+		custom_button.dart
+		error.dart
+		loader.dart
+
+config/
+	agora_config.dart	
+features/
+	auth/
+		controller/	
+			auth_controller.dart
+		repository/
+			auth_repository.dart
+		screens/
+			login_screen.dart
+			otp_screen.dart
+			user_information_screen.dart	
+	call/
+		controller/
+			call_controller.dart
+		repository/
+			call_repository.dart
+		screens/
+			call_pickup_screen.dart
+			call_screen.dart
+	chat/
+		controller/
+			chat_controller.dart
+		repositories/
+			chat_repository.dart
+		screens/
+			mobile_chat_screen.dart
+		widgets/
+			bottom_chat_field.dart
+			chat_list.dart
+			contacts_list.dart
+			display_text_image_gif.dart
+			message_reply_preview.dart
+			my_message_card.dart
+			sender_message_card.dart
+			video_player_item.dart
+	group/
+		controller/
+			group_controller.dart
+		repository/
+			group_repository.dart	
+		screens/
+			create_group_screen.dart	
+		widgets/
+			select_contacts_group.dart
+	landing/
+		screens/
+			landing_screen.dart
+	select_contacts/
+		controller/
+			select_contact_controller.dart
+		repository/
+			select_contact_repository.dart
+		screens/
+			select_contacts_screen.dart
+	status/
+		controller/
+			status_controller.dart
+		repository/
+			status_repository.dart
+		screens/
+			status_screen.dart
+
+models/
+	call.dart
+	chat_contact.dart
+	group.dart
+	message.dart
+	status_model.dart
+	user_model.dart	
+
+firebase_options.dart
+main.dart
+mobile_layout_screen.dart
+router.dart
